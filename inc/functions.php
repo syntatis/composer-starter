@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App;
 
-function main(): void
+function app(): void
 {
 	echo 'Hello, World!';
 }
