@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace App\Tests;
 
-use App\Main;
+use App\App;
 use PHPUnit\Framework\TestCase;
 
-class MainTest extends TestCase
+class AppTest extends TestCase
 {
 	public function testTrue(): void
 	{
-		$this->assertEquals('Hello, World!', (string) (new Main()));
+		self::assertEquals('Hello, World!', (string) (new App()));
 	}
 }
