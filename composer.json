@@ -55,5 +55,8 @@
         },
         "preferred-install": "dist",
         "sort-packages": true
-    }
+    },
+    "non-feature-branches": [
+		"dependabot/*"
+	]
 }
