@@ -30,7 +30,7 @@
 		<properties>
 			<property name="rootNamespaces" type="array">
 				<element key="app" value="App"/>
-				<element key="tests/app" value="App\Tests"/>
+				<element key="tests/phpunit/app" value="App\Tests"/>
 			</property>
 		</properties>
 	</rule>
