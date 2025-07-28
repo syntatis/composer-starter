@@ -1,1 +1,1 @@
-# 🏁 composer-skeleton
+# 🏁 composer-starter

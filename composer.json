@@ -1,6 +1,6 @@
 {
-    "name": "syntatis/composer-skeleton",
-    "description": "Skeleton for a Composer package",
+    "name": "syntatis/composer-starter",
+    "description": "Opinionated starter template for a Composer package",
     "keywords": ["skeleton", "package", "starter", "template"],
     "authors": [
         {
