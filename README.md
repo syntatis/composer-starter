@@ -17,10 +17,25 @@ This repository provides a ready-to-use, opinionated starting point for creating
 
 ## Usage
 
+
+### Recommended 
+
+To use this starter template it's recommended to use the Github template feature. You can create a new repository using this template by clicking the **"Use this template"** button on the repository page.
+
+Then, after cloning the new repository, you can run:
+
+```bash
+composer install
+```
+
+...to install the dependencies.
+
+### Using Composer
+
 To use this starter template, run:
 
-```
-composer create-project syntatis/composer-starter <my-package>
+```bash
+composer create-project syntatis/composer-starter --prefer-source <my-package>
 ```
 
 Replace `<my-package>` with the desired name for your package. This will create a new directory with the specified name, and install the dependencies. **Don't forget to update** the `name`, `description`, and `authors` fields in the `composer.json` file to reflect your own package's details.
