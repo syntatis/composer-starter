@@ -13,3 +13,32 @@ This repository provides a ready-to-use, opinionated starting point for creating
 * Composer scripts for common tasks
 * Visual Studio Code workspace settings with the extensions recommendation for development
 * [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) configuration for consistent development environment inside a Docker container
+
+## Commands
+
+This repository comes with several Composer scripts to help you with common development tasks such as testing, linting, formatting, and static analysis. You can run these commands using `composer <command>` in your terminal.
+
+<table>
+    <thead>
+        <th>Command</th>
+        <th>Description</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td><code>composer&nbsp;test</code></td>
+            <td>Runs the tests using PHPUnit.</td>
+        </tr>
+        <tr>
+            <td><code>composer&nbsp;sniff</code></td>
+            <td>Checks code style using PHP_CodeSniffer (PHPCS).</td>
+        </tr>
+        <tr>
+            <td><code>composer&nbsp;format</code></td>
+            <td>Formats the code using PHPCBF (PHP Code Beautifier and Fixer).</td>
+        </tr>
+        <tr>
+            <td><code>composer&nbsp;analyse</code></td>
+            <td>Runs static analysis using PHPStan.</td>
+        </tr>
+	</tbody>
+</table>
