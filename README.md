@@ -15,6 +15,16 @@ This repository provides a ready-to-use, opinionated starting point for creating
 * GitHub Actions workflow for running tests and static analysis on pull request
 * [Dependabot](https://github.com/dependabot) configuration for automatic dependency updates
 
+## Usage
+
+To use this starter template, run:
+
+```
+composer create-project syntatis/composer-starter <my-package>
+```
+
+Replace `<my-package>` with the desired name for your package. This will create a new directory with the specified name, and install the dependencies. **Don't forget to update** the `name`, `description`, and `authors` fields in the `composer.json` file to reflect your own package's details.
+
 ## Commands
 
 This starter template comes with several Composer scripts to help you with common development tasks such as testing, `linting`, formatting, and static analysis. You can run these commands using `composer <command>` from the root of your project.
