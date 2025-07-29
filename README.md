@@ -8,11 +8,12 @@ This repository provides a ready-to-use, opinionated starting point for creating
 * Pre-configured PHPUnit for testing
 * Pre-configured PHPStan for static analysis
 * Pre-configured PHPCS for code style checking, and formatting
-* GitHub Actions workflow
 * Ready-to-use `.editorconfig`, `.gitattributes`, and `.gitignore`
 * Composer scripts for common tasks
 * Visual Studio Code workspace settings with the extensions recommendation for development
 * [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) configuration for consistent development environment inside a Docker container
+* GitHub Actions workflow for running tests and static analysis on pull request
+* Dependabot configuration for automatic dependency updates
 
 ## Commands
 
