@@ -71,7 +71,7 @@ This starter template comes with several Composer scripts to help you with commo
             <td>Formats the code using PHPCBF (PHP Code Beautifier and Fixer).</td>
         </tr>
         <tr>
-            <td><code>composer&nbsp;analyse</code></td>
+            <td><code>composer&nbsp;analyze</code></td>
             <td>Runs static analysis using PHPStan.</td>
         </tr>
 	</tbody>
