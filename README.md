@@ -1,4 +1,4 @@
-# 🏁 composer-starter
+# 🔰 composer-starter
 
 This repository provides a ready-to-use, opinionated starting point for creating a Composer package. It's designed to help you kickstart development with the essential tools so you can skip the boilerplate and focus on starting to build your package.
 
