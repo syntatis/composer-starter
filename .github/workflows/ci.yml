@@ -21,9 +21,9 @@ concurrency:
 
 jobs:
 
-  sniff:
+  lint:
     runs-on: ubuntu-latest
-    name: Sniff
+    name: Lint
 
     steps:
       - name: Checkout code
@@ -37,8 +37,8 @@ jobs:
       - name: Install PHP dependencies
         uses: ramsey/composer-install@v3
 
-      - name: Analyze source code
-        run: composer sniff
+      - name: Check code style
+        run: composer lint
 
   analyze:
     runs-on: ubuntu-latest
@@ -60,7 +60,7 @@ jobs:
         run: composer analyze
 
   test:
-    needs: [sniff, analyze]
+    needs: [lint, analyze]
     runs-on: ubuntu-latest
     name: Test
 
