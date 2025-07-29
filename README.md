@@ -16,7 +16,7 @@ This repository provides a ready-to-use, opinionated starting point for creating
 
 ## Commands
 
-This repository comes with several Composer scripts to help you with common development tasks such as testing, linting, formatting, and static analysis. You can run these commands using `composer <command>` in your terminal.
+This starter template comes with several Composer scripts to help you with common development tasks such as testing, `linting`, formatting, and static analysis. You can run these commands using `composer <command>` from the root of your project.
 
 <table>
     <thead>
@@ -29,7 +29,7 @@ This repository comes with several Composer scripts to help you with common deve
             <td>Runs the tests using PHPUnit.</td>
         </tr>
         <tr>
-            <td><code>composer&nbsp;sniff</code></td>
+            <td><code>composer&nbsp;lint</code></td>
             <td>Checks code style using PHP_CodeSniffer (PHPCS).</td>
         </tr>
         <tr>
