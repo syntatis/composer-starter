@@ -38,9 +38,7 @@ To use this starter template, run:
 composer create-project syntatis/composer-starter --prefer-source --no-install <my-package>
 ```
 
-Replace `<my-package>` with the desired name for your package. This will create a new directory with the specified name.
-
-Then, run the following command to install the dependencies:
+Replace `<my-package>` with the desired name for your package. This will create a new directory with the specified name. Then, run the following command to install the dependencies:
 
 ```bash
 cd <my-package>
