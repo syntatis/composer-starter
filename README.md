@@ -35,10 +35,20 @@ composer install
 To use this starter template, run:
 
 ```bash
-composer create-project syntatis/composer-starter --prefer-source <my-package>
+composer create-project syntatis/composer-starter --prefer-source --no-install <my-package>
 ```
 
-Replace `<my-package>` with the desired name for your package. This will create a new directory with the specified name, and install the dependencies. **Don't forget to update** the `name`, `description`, and `authors` fields in the `composer.json` file to reflect your own package's details.
+Replace `<my-package>` with the desired name for your package. This will create a new directory with the specified name.
+
+Then, run the following command to install the dependencies:
+
+```bash
+cd <my-package>
+composer install
+```
+
+> [!NOTE]  
+> **Don't forget to update** the `name`, `description`, and `authors` fields in the `composer.json` file to reflect your own package's details.
 
 ## Commands
 
