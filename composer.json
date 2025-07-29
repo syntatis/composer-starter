@@ -2,11 +2,9 @@
     "name": "syntatis/composer-starter",
     "description": "Opinionated boilerplate to kickstart a Composer package",
     "keywords": [
-        "framework",
         "boilerplate",
         "skeleton",
-        "starter",
-        "template"
+        "starter"
     ],
     "authors": [
         {
