@@ -1,9 +1,10 @@
 {
     "name": "syntatis/composer-starter",
-    "description": "Opinionated starter template for a Composer package",
+    "description": "Opinionated boilerplate to kickstart a Composer package",
     "keywords": [
-        "skeleton",
+        "boilerplate",
         "package",
+        "skeleton",
         "starter",
         "template"
     ],
