@@ -1,5 +1,7 @@
 # 🔰 composer-starter
 
+![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/syntatis/composer-starter/php?color=777BB3)
+
 This repository provides a ready-to-use, opinionated starting point for creating a Composer package. It's designed to help you kickstart development with the essential tools so you can skip the boilerplate and focus on starting to build your package.
 
 ## Features
