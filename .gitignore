@@ -28,6 +28,7 @@ composer.lock
 # Temporary files #
 ###################
 tmp
+wordpress/
 
 # Environment files #
 ######################
@@ -39,3 +40,4 @@ phpcs.xml
 phpstan.xml
 phpunit.xml
 *.override.xml
+wp-cli.local.yml
