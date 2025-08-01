@@ -13,11 +13,17 @@
   ],
   "license": "MIT",
   "autoload": {
+		"files": [
+			"inc/helpers.php"
+		],
     "psr-4": {
       "App\\": "app/"
     }
   },
   "autoload-dev": {
+		"files": [
+			"inc/helpers.php"
+		],
     "psr-4": {
       "App\\Tests\\": "tests/"
     }
