@@ -78,24 +78,22 @@ jobs:
       fail-fast: true
       max-parallel: 2
       matrix:
-        php-version: ['7.4', '8.0', '8.1', '8.2', '8.3', '8.4']
+        php-version: ["7.4", "8.0", "8.1", "8.2", "8.3", "8.4"]
+        stability: [lowest, stable]
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup PHP for dependencies
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: 7.4
-
-      - name: Install PHP dependencies
-        uses: ramsey/composer-install@v3
-
-      - name: Setup PHP for test
+      - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php-version }}
+
+      - name: Install PHP dependencies
+        uses: ramsey/composer-install@v3
+        with:
+          dependency-versions: ${{ matrix.stability }}
 
       - name: Run test
         run: composer test
